@@ -10,8 +10,7 @@ document.getElementById("formRegistrar").addEventListener("submit", function(eve
         nombre: nombre,
         correo: correo
     };
-    console.log("Enviando datos:", data);
-
+    
     fetch('/registrar/', {
         method: 'POST',
         headers: {
