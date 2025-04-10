@@ -13,7 +13,7 @@ def listGenero():
         mensaje=str(error)
     return render_template('listadegeneros.html',mensaje=mensaje,generos=generos)
     
-@app.route("/agregargenero/",methods=['GET', 'POST'])
+@app.route("/agregenero/",methods=['GET', 'POST'])
 def addGenero():
     if 'usuario_id' not in session:
         return redirect(url_for('login'))
