@@ -11,9 +11,9 @@ app.config['SECRET_KEY'] = 'elsenorx'
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'juanmenxz9@gmail.com' 
-app.config['MAIL_PASSWORD'] = 'wgqsxzviykbrhdid'    
-app.config['MAIL_DEFAULT_SENDER'] = 'juanmenxz9@gmail.com'
+app.config['MAIL_USERNAME'] = 'andreatumina1m@gmail.com' 
+app.config['MAIL_PASSWORD'] = 'xqipwosetvldafjz'    
+app.config['MAIL_DEFAULT_SENDER'] = 'andreatumina1m@gmail.com'
 
 mail = Mail(app)
 CORS(app)
