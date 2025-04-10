@@ -21,7 +21,7 @@ app.config["UPLOAD_FOLDER"] = "./static/img"
 app.config["MONGODB_SETTINGS"] = [{
     "db": "GestionPeliculas2",
     "host": os.getenv("MONGO_URI"),
-    "port": 27017
+    #"port": 27017
 }]
 
 db = MongoEngine(app)
